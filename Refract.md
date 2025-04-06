@@ -102,7 +102,7 @@ function useMousePosition() {
 npm install refract-js
 ```
 
-### File Structure
+### File structure
 
 ```
 my-app/
@@ -115,7 +115,7 @@ my-app/
 └── index.html
 ```
 
-### Basic Usage
+### Basic usage
 
 ```js
 import { createApp } from 'refract';
@@ -123,17 +123,3 @@ import App from './App';
 
 createApp(App).mount('#root');
 ```
-
-## Ecosystem
-
-- **Refract Router**: A minimalist router with refraction-aware routes.
-- **Refract Devtools**: Inspect signals, lenses, and renders.
-- **Refract CLI**: Code generator and compiler tool.
-- **Refract Animate**: Declarative animations using optics and transitions.
-- **Refract Test**: Jest-compatible testing layer for components and optics.
-
-## Advancedfeatures
-
-- **Refractive trees**: Enable partial updates on complex UIs
-- **Optical memoization**: Automatic performance tuning for optics
-- **Concurrent rendering**: Opt-in for async updates
