@@ -21,7 +21,7 @@ Refract simulates all of that in one fictional but detailed framework.
 
 ## How to use this repo
 
-1. **Understand the project**: Navigate to the Refract project file to get a good understanding of how this project works.
+1. **Understand the project**: Navigate to the [Refract](https://github.com/Technical-writing-mentorship-program/Refract/blob/main/Refract.md) project file to get a good understanding of how this project works.
 
 2. **Fork this repository**: This gives you your own workspace to build documentation.
 
@@ -67,13 +67,13 @@ docs/
 └── contributing.md
 ```
 
-Don't contrain yourself to this structure. Please be as flexible as possible, and rely on diverse SSGs to bring this project to life.
+Don't constrain yourself to this structure. Please be as flexible as possible and rely on diverse SSGs to bring this project to life.
 
 ## Tips for writers
 
 - Write as if this project is used by thousands of developers.
 - Clarify what problems each concept/API solves.
-- Show code examples in every page.
+- Show code examples on every page.
 - Structure your docs like a real developer site (e.g. React, Vue, or Svelte).
 - You can even create a mock website using tools like [Docusaurus](https://docusaurus.io), [VuePress](https://vuepress.vuejs.org), or [Astro](https://astro.build).
 
