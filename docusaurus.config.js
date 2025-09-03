@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Refract',
   tagline: 'React-inspired JavaScript framework that improves developer experience',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/Refract.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -91,7 +91,7 @@ const config = {
         title: 'Refract',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/Refract.svg',
         },
         items: [
           {
@@ -103,7 +103,7 @@ const config = {
           {to: '/api/createComponent', label: 'API', position: 'left'},
           {to: '/tutorial/counterApp', label: 'Tutorial', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/roakoth/Refract-dev-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -117,24 +117,11 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                to: '/tutorial/counterApp',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'API',
+                to: '/api/createComponent',
               },
             ],
           },
@@ -143,12 +130,12 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/roakoth/Refract-dev-docs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Refract`,
       },
       prism: {
         theme: prismThemes.github,
