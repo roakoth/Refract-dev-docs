@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 
-# What is Refract
+# Overview
+
+## What is Refract
 **Refract** is a JavaScript framework designed to help developers build modern, scalable, and reactive user interfaces. 
 
 It helps developers create scalable, modern UIs by combining familiar ideas from React’s component model with new concepts for reactivity and state management.

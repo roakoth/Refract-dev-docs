@@ -1,0 +1,10 @@
+{
+    "label": "Core Concepts",
+    "collapsible": true,
+    "collapsed": true,
+    "position": 3,
+    "link": {
+      "type": "generated-index",
+      "description": "Refract is built around a few core ideas that make it easy to create reactive, composable, and maintainable user interfaces. This section introduces those concepts step by step."
+    }
+  }
