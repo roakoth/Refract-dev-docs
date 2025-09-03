@@ -20,7 +20,7 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://refract-dev.netlify.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -126,7 +126,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Social',
             items: [
               {
                 label: 'GitHub',
