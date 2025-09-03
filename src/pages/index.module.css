@@ -21,3 +21,17 @@
   align-items: center;
   justify-content: center;
 }
+
+/*HEADER*/
+.headerWrapper {
+  position: relative;
+  background-image: 'img/green.jpg';
+  background: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+[data-theme='dark'] {
+  color: white;
+}

@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Improve developer experience',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/developer.svg').default,
     description: (
       <>
         Refract aims to streamline the development process with a familiar, 
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Optimized performance',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/web-performance.svg').default,
     description: (
       <>
       Refract has native support for stream-based UI updates which improves performance 
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Pure and Reactive UI',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/beautiful-ui.svg').default,
     description: (
       <>
         Refract encourages developers to build UIs using pure functions, 
