@@ -22,16 +22,17 @@
   justify-content: center;
 }
 
+h1, p {
+  color: #ffffff;
+}
+
 /*HEADER*/
-/* .headerWrapper {
-  position: relative;
-  background-image: 'img/green.jpg';
+.headerWrapper {
   background: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
-} */
-
-[data-theme='dark'] {
-  color: white;
+  background-image: url('../../static/img/green.jpg');
 }
+
+
