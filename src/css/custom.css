@@ -39,7 +39,7 @@
   --ifm-color-primary-lightest: #22b978;
 } */
 
-[data-theme='dark'] {
+/* [data-theme='dark'] {
   --ifm-color-primary: #8473d9;
   --ifm-color-primary-dark: #6d59d2;
   --ifm-color-primary-darker: #624cce;
@@ -47,14 +47,15 @@
   --ifm-color-primary-light: #9b8de0;
   --ifm-color-primary-lighter: #a69ae4;
   --ifm-color-primary-lightest: #c9c1ee;
+} */
+
+[data-theme='dark'] {
+  --ifm-color-primary: #b07be5;
+  --ifm-color-primary-dark: #9e5edf;
+  --ifm-color-primary-darker: #964fdc;
+  --ifm-color-primary-darkest: #7b29ce;
+  --ifm-color-primary-light: #c298eb;
+  --ifm-color-primary-lighter: #caa7ee;
+  --ifm-color-primary-lightest: #e5d3f6;
 }
 
-/* [data-theme='dark'] {
-  --ifm-color-primary: #1dd787;
-  --ifm-color-primary-dark: #1ac27a;
-  --ifm-color-primary-darker: #19b773;
-  --ifm-color-primary-darkest: #14965f;
-  --ifm-color-primary-light: #2ae293;
-  --ifm-color-primary-lighter: #35e499;
-  --ifm-color-primary-lightest: #55e8a9;
-} */
